@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel ="stylesheet" href="css/bootstrap.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+    <link rel ="stylesheet" href="styleformini.css">
+  </head>
+  <body>
+
+    <div id="scroll">
+      <span id = "sc">SCROLL&nbsp;&#x279C;</span>
+    </div>
+
+    <div id ="yo1" onmousewheel="changecoloragain()">
+  	<nav>
+  	<div id ="logo">
+  		<a onclick="home()"><img src="img/logo2.png" id="logo"></a>
+  	</div>
+  	<div>
+  		<ul >
+        <li><a  id = "hh"  onclick="home()" style="text-decoration: none;"><div class="btn btn-one"><span>Home</span></div></a></li>
+        <li><a  id = "hh" onclick="alertx()" style="text-decoration: none;"><div class="btn btn-one"><span>Services</span></div></a></li>
+        <li><a  id = "hh" onclick="gosuccessi()" style="text-decoration: none;"><div class="btn btn-one"><span>Success Story</span></div></a></li>
+        <li><a  id = "hh" onclick="goabouti()"  style="text-decoration: none;"><div class="btn btn-one"><span>About</span></div></a></li>
+        <li><a  id = "hh" onclick="gocontacti()"  style="text-decoration: none;"><div class="btn btn-one"><span>Contact Us</span></div></a></li>
+        <li onclick="openfun()"><a  id = "hh" style="text-decoration: none;"><div class="btn btn-one" style="width:28%; padding-left:18px;"><span><img id="l" src="img/login.png"></span></div></a></li>
+     	</ul>
+	 </div>
+   <div id ="title">
+        <p><b style=" font-size: 50px; margin-left:10px; font-family:'Antonio', sans-serif; letter-spacing:0.1em">
+          Maximize Your Potential.</b>
+          <br>
+          <i>Fitness does not just change the way we see things, it transforms the person who sees and a mirror to look at ourselves from within. So get Fit now by surrounding yourself with Mental and performance trainer for athletes and coaches </i></span>
+        </a><br>
+        <a id="i1" onclick="alertx()">Book Now &#10230;</a>
+      </p>
+    </div>
+	 </nav>
+   </div>
+
+   <div id ="yo2" onmousewheel="changecoloragain()" >
+     <div class="con" >
+  <h1>About Us</h1>
+  <hr>
+     <div class="row" style="	animation:  fadeIn 3s;">
+         <div class="col-sm-3 col-md-6 col-lg-6">
+           F2 Fitness  was founded in 2002 as a family owned and operated business. The F2 Fitness founders didn’t want it to be just another gym  - they wanted to be the best in the industry and set their minds to doing so! Since its birth, F2 Fitness has grown into one of Mumbai's largest  fitness center having helped over 50,000 customers live longer, happier and healthier.
+         </br>
+         <a id= "i2" onclick="goabouti()">Read More &#10230;</a>
+         </div>
+         <div class="col-sm-9 col-md-6 col-lg-6">
+           <img src="img/aboutus.jpg" id = "aboutusimg" style="width:98%; margin:0px; padding:0px">
+         </div>
+  </div>
+</div>
+</div>
+
+<div id ="yo3" onmousewheel="changecolor()" >
+      <span>Services</span>
+      <a onclick="alertx()">View All</a>
+      <div class="container">
+<div class="row">
+    <div class="col">
+      <div class= "card" onclick="alertx()">
+        <img src="img/yoga.jpg"style="width:100%; margin:0px; padding:0px" >
+        <div class="overlay-t" style="left: 30%;">
+          <h3>Yoga</h3>
+        </div>
+    </div>
+  </div>
+
+    <div class="col">
+      <div class= "card" onclick="alertx()">
+        <img src="img/pt.jpg"style="width:100%; margin:0px; padding:0px">
+        <div class="overlay-t"style="left: 17%;">
+          <h3>Personal trainer</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="col">
+      <div class= "card" onclick="alertx()">
+      <img src="img/gym1.jpg" style="width:100%; margin:0px; padding:0px">
+        <div class="overlay-t" style="left: 17%;">
+          <h3>Posture Correction</h3>
+        </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+        <h5 id ="fn1" ><i>JACK</i></h5>
+        <p id ="f1">"In just 6 months of training with Michael I lost 38 pounds."</p>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <h5 id ="fn2"><i>CARRIE</i></h5>
+        <p id ="f2">"Reaching my goal of 22% body fat was so easy with Michael."</p>
+    </div>
+    <div class="carousel-item">
+      <h5 id ="fn3"><i>IRIS</i></h5>
+      <p id ="f3">"I crossed the finish line on my first marathon."</p>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  <div class="row">
+      <div class="col-sm-9 col-md-6 col-lg-3">
+        <img src="img/logo2.png">
+        <h5>F2 FITNESS CENTER</h5>
+        <p>Our Purpose is To Substaniably Make Fitness & Sports the Mantra of More. </p>
+      </div>
+
+      <div class="col-sm-9 col-md-6 col-lg-2">
+        <h5 style="margin-top:30px; margin-left: 0;text-align: center">Explore</h5>
+        <ul style="text-align: center;margin-Top:10px;">
+          <li onclick="home()">Home</a></li>
+          <li onclick="gosuccessi()">Success Story</a></li>
+          <li onclick="alertx()">Services</a></li>
+          <li onclick="gocontacti()">Contact Us</a></li>
+          <li onclick="goabouti()">About</a></li>
+        </ul>
+     </div>
+
+     <div class="col-sm-9 col-md-6 col-lg-2">
+       <h5 style="margin-top:30px; margin-left: 0;text-align: center">Hours Of Operation</h5>
+       <ul style="margin-Top:10px;">
+         <li>Mon-Thu: 9AM to 8PM</li>
+         <li>Friday: 9AM to 3PM</li>
+         <li>Sat-Sun: Closed</li>
+       </ul>
+       <h5 style="margin-top:30vh; margin-left: 0;text-align: center">Contact Us</h5>
+       <ul style="text-align: center;margin-Top:10px;">
+         <li onclick="">&#x2709;&nbsp;&nbsp;&nbsp;support@fitternity.com</a></li>
+         <li onclick="window.location.href='#.html'">&#x260F;&nbsp;&nbsp;&nbsp;022-6109-4444</a></li>
+       </ul>
+    </div>
+
+    <div class="col-sm-9 col-md-6 col-lg-5">
+      <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.0912620894715!2d72.83422711490084!3d19.059724687097212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9126ede44bd%3A0x38b918c5f286928e!2sF2%20Fitness!5e0!3m2!1sen!2sin!4v1618841239580!5m2!1sen!2sin"
+         allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id = "co">
+    <hr>
+    <p>Copyright &#xa9; 2021 F2 Fitness Center India . Inc All rights Reserved.</p>
+    </div>
+
+
+    <div id = "show">
+      <div id="modalOne" class="modal">
+     <div class="modal-content">
+       <div id = "semi">
+       <a class="close" onclick="closefun()">&times;</a>
+     </div>
+     <form id ="loginform">
+       <h2> Sign In </h2>
+       <p>Sign up with your social media account or email address</p>
+       <span onclick="googlelogin()" ><img src="img/google1.png" ></span>
+       <span onclick="twitterlogin()" ><img src="img/twitter.png" ></span>
+       <span onclick="facebooklogin()"><img src="img/facebook.png"></span>
+       <div class="or-seperator" style="margin:10px; text-align:center"><b>or</b></div>
+      <input type="text" placeholder="UserName or Email" id= "email"><br>
+      <p class = "errorlook" id = "eerror"><strong> Error ! </strong><small style="float:right;font-size:20px; font-size: 25px;margin-right:5px;"> &times </small></p>
+      <input type="password"  placeholder="Password" id= "pass" ><br>
+      <p class = "errorlook" id = "perror"><strong> Error ! </strong><small style="float:right;font-size:20px; font-size: 25px;margin-right:5px;"> &times </small></p>
+      <button type="button" id = "login"  onclick="checkuser()">Login</button>
+
+      <a onclick="openforgetlay()">Forgot password ?</a>
+     </form>
+     <div id="go">
+     <p> Don't have an account&nbsp;!&nbsp;<a onclick="opensignup()"> <u>Sign up here</u>.</a></p>
+     </div>
+   </div>
+ </div>
+    </div>
+
+
+
+    <div id = "shows">
+      <div id="modalOne" class="modal">
+     <div class="modal-content" style="height:70%">
+       <div id = "semi">
+       <a class="close" onclick="closefun()">&times;</a>
+     </div>
+    <form id ="signupform">
+      <h2> Create an Account </h2>
+      <input type="text" placeholder="User Name" id = "nusername"><br>
+      <p class = "errorlook" id = "nuerror"><strong> Error ! </strong><small style="float:right;font-size:20px; font-size: 25px;margin-right:5px;"> &times </small></p>
+
+     <input type="email" placeholder="Email" id = "nuseremail"><br>
+     <p class = "errorlook" id = "neerror"><strong> Error ! </strong><small style="float:right;font-size:20px; font-size: 25px;margin-right:5px;"> &times </small></p>
+
+     <input type="password"  placeholder="Password" id = "nuserpassword"><br>
+     <p class = "errorlook" id = "nperror"><strong> Error ! </strong><small style="float:right;font-size:20px; font-size: 25px;margin-right:5px;"> &times </small></p>
+
+     <input type="password"  placeholder="Confirm Password" id="nusercpassword"><br>
+     <p class = "errorlook" id = "ncperror"><strong> Error ! </strong><small style="float:right;font-size:20px; font-size: 25px;margin-right:5px;"> &times </small></p>
+
+     <label>
+    <input type="checkbox" name="checkbox" value="css" />
+    <span> I accept the <a href="#" style="color:green">Terms of Use</a> &amp; <a href="#" style="color:green">Privacy Policy</a></span>
+  </label>
+<button type="button" onclick="adduser()">SignUp</button>
+
+    </form>
+    <div id="so">
+    <p> Already have an account&nbsp;!&nbsp;<a onclick="opensignin()"> <u>Sign in here</u>.</a></p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+    <div id = "fshow">
+      <div id="modalOne" class="modal">
+     <div class="modal-content" style="height:45%">
+       <div id = "semi">
+       <a class="close" onclick="closefun()">&times;</a>
+     </div>
+    <form id ="signupform">
+      <h2> Reset your Account Password </h2>
+      <input style ="font-weight:100;"type="text" placeholder="User Email " id = "resetname"><br>
+      <p class = "errorlook" id = "ererror"><strong> Error ! </strong><small style="float:right;font-size:20px; font-size: 25px;margin-right:5px;"> &times </small></p>
+      <button type="button" onclick="resetpassword()">Reset Password</button>
+
+    </form>
+    <p class = "successlook"><strong> &#9989;  Successful ! </strong>Check your email for resetting Accoun Password.</p>
+
+    <div id="so">
+    <p> Wanted to Go Back &nbsp;!&nbsp;<a onclick="opensignin()"> <u>Sign in here</u>.</a></p>
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+<div id = "alertrequest">
+  <div id="modalOne" class="modal">
+ <div class="modal-content" style="height:50% width:50%">
+   <div id = "semi">
+   <a class="close" onclick="closefun()">&times;</a>
+ </div>
+ <img src="img/alert.gif" style="margin-left:20%;"  width="400px"height="400px">
+ <p style="text-align:center ;font-family: 'Poppins',sans-serif; font-size:17px;">For Booking Gym Session u need to Sign in !!!
+ <br><button onclick="opensignin()" style=" background: #5fcaba;border: none;color: white; margin-top: 20px;background:; width:200px; height:45px;">Sign in</button</p>
+</div>
+</div>
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+<script src="scriptx.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+<script src='js/bootstrap.min.js'></script>
+  </body>
+</html>

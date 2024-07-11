@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel ="stylesheet" href="css/bootstrap.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'>
+    <link rel ="stylesheet" href="styleformini.css">
+  </head>
+  <body>
+
+    <div id="scroll">
+      <span id = "sc">SCROLL&nbsp;&#x279C;</span>
+    </div>
+
+    <div id ="cyo1" >
+  	<nav>
+  	<div id ="logo">
+  		<a onclick="home()"><img src="img/logo2.png" id="logo"></a>
+  	</div>
+
+  	<div>
+  		<ul >
+        <li><a  id = "hh"  onclick="mhome()" style="text-decoration: none;"><div class="btn btn-one"><span>Home</span></div></a></li>
+        <li><a  id = "hh" onclick="service()" style="text-decoration: none;"><div class="btn btn-one"><span>Services</span></div></a></li>
+        <li><a  id = "hh" onclick="gosuccess()"style="text-decoration: none;"><div class="btn btn-one"><span>Success Story</span></div></a></li>
+        <li><a  id = "hh" onclick="goabout()" style="text-decoration: none;"><div class="btn btn-one"><span>About</span></div></a></li>
+        <li><a  id = "hh" onclick="gocontact()"  style="text-decoration: none;"><div class="btn btn-one"><span>Contact Us</span></div></a></li>
+        <li><a  id = "hh"  style="text-decoration: none;"><div class="btn" style="text-align:right"><span id ="cuname"></span></div></a></li>
+        <li id= "xx"style="width:50px;"><div class="btn " id="ad" style="margin-left:5px;"><span><img onclick="logout()" src="img/l.png"></span></div>
+      </li> 	</ul>
+	 </div>
+	 </nav>
+   </div>
+
+  <div class="row">
+      <div class="col-sm-9 col-md-6 col-lg-3">
+        <img src="img/logo2.png">
+        <h5>F2 FITNESS CENTER</h5>
+        <p>Our Purpose is To Substaniably Make Fitness & Sports the Mantra of More. </p>
+      </div>
+
+      <div class="col-sm-9 col-md-6 col-lg-2">
+        <h5 style="margin-top:30px; margin-left: 0;text-align: center">Explore</h5>
+        <ul style="text-align: center;margin-Top:10px;">
+          <li onclick="mhome()">Home</a></li>
+          <li onclick="gosuccess()">Success Story</a></li>
+          <li onclick="service()">Services</a></li>
+          <li onclick="gocontact()">Contact Us</a></li>
+          <li onclick="goabout()">About</a></li>
+        </ul>
+     </div>
+
+     <div class="col-sm-9 col-md-6 col-lg-2">
+       <h5 style="margin-top:30px; margin-left: 0;text-align: center">Hours Of Operation</h5>
+       <ul style="margin-Top:10px;">
+         <li>Mon-Thu: 9AM to 8PM</li>
+         <li>Friday: 9AM to 3PM</li>
+         <li>Sat-Sun: Closed</li>
+       </ul>
+       <h5 style="margin-top:30vh; margin-left: 0;text-align: center">Contact Us</h5>
+       <ul style="text-align: center;margin-Top:10px;">
+         <li onclick="">&#x2709;&nbsp;&nbsp;&nbsp;support@fitternity.com</a></li>
+         <li onclick="window.location.href='#.html'">&#x260F;&nbsp;&nbsp;&nbsp;022-6109-4444</a></li>
+       </ul>
+    </div>
+
+    <div class="col-sm-9 col-md-6 col-lg-5">
+      <div id="map-container-google-1" class="z-depth-1-half map-container" style="height: 500px">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3771.0912620894715!2d72.83422711490084!3d19.059724687097212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9126ede44bd%3A0x38b918c5f286928e!2sF2%20Fitness!5e0!3m2!1sen!2sin!4v1618841239580!5m2!1sen!2sin"
+         allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <div id = "co">
+    <hr>
+    <p>Copyright &#xa9; 2021 F2 Fitness Center India . Inc All rights Reserved.</p>
+    </div>
+
+
+<div id = "contactform">
+      <div id="modalOne" class="modal">
+     <div class="modal-content" style="left:20%;top:17%; height:80%;width:60%">
+       <div class="container" style="margin:0px;padding:0px" >
+   <div class="row" >
+     <div class="col-sm" style="width:40%;">
+       <img src="img/f1.jpg" id="logo"  style="width:400px; height:654px;margin: 0px;padding: 0px;">
+     </div>
+
+     <div class="col-sm" style="text-align:center; margin:0px;">
+       <a class="close" onclick="closefunx()" style="margin-top:-15px;">&times;</a>
+         <form id ="contact">
+           <H3 style=" font-family:'Poppins', sans-serif;font-weight: 300;color:#ff4c4c; margin-top:30px;">BOOK YOUR <BR>CONSULTATION CALL</H3>
+          <input type="text" placeholder="Full Name" id= "cname" style="margin-top:20px;"><br>
+          <input type="text" placeholder="Email" id= "cemail"><br>
+          <input type="text"  placeholder="Contact No." id= "cconno" ><br>
+          <textarea name="txtArea" rows="10" cols="20" id = "cmsg" placeholder="Message"></textarea><br>
+          <button type="button" id = "donecontact"  onclick="donec()">Done</button>
+         </form>
+     </div>
+
+   </div>
+ </div>
+  </div>
+</div>
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.1/firebase-database.js"></script>
+<script src="scriptx.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+<script src='js/bootstrap.min.js'></script>
+  </body>
+</html>
